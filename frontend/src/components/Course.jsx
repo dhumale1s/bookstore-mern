@@ -1,4 +1,6 @@
 import React from 'react'
+import list from "../../public/list.json"
+import Cards from './Cards'
 
 function Course() {
     return (
@@ -14,6 +16,13 @@ function Course() {
                     <button className='mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duratioon-300'>
                         Back
                     </button>
+                </div>
+                <div className='mt-12 grid grid-cols-1 md:grid-cols-4'>
+                    {
+                        list.map((item)=>(
+                            <Cards key={item.id} item={item}/>
+                        ))
+                    }
                 </div>
             </div>
         </>
