@@ -3,9 +3,12 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-            <hr style={{ border: '1px solid #ccc', margin: '1px 0' }} />
 
-            <footer className="footer footer-center  text-base-content rounded p-10">
+            {/*<hr style={{ border: '1px solid #ccc', margin: '1px 0' }} />*/}
+
+            <hr />
+
+            <footer className="footer footer-center  text-base-content rounded p-10 dark:bg-slate-900 dark:text-white">
                 <nav className="grid grid-flow-col gap-4">
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>

@@ -6,8 +6,10 @@ import {Link} from "react-router-dom"
 function Course() {
     return (
         <>
-            <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>
-                <div className='mt-28 items-center justify-center text-center'>
+            <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 flex flex-col my-10">
+            {/*<div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>*/}
+            <div className='mt-20 items-center justify-center text-center'>
+                {/*<div className='mt-28 items-center justify-center text-center'>*/}
                     <h1 className='text-2xl md:text-4xl'>
                         We're delighted to have you <span className='text-pink-500'>here! :)</span>
                     </h1>
